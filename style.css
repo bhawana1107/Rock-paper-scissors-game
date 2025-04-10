@@ -1,0 +1,81 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.option button {
+    padding: 6px 10px;
+    font-size: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#stone {
+    background-color: red;
+}
+
+#paper {
+    background-color: #2196f3;
+}
+
+#scissor {
+    background-color: #16aa16;
+}
+
+.scores {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+#result {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+#your {
+    color: #2196f3;
+    font-size: 30px;
+}
+
+#computer {
+    color: red;
+    font-size: 30px;
+}
